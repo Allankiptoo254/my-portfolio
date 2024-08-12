@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/css/styles.css">
+    <title>Personal Portfolio</title>
+    <link rel="shortcut icon" href="../assets/images/user.jpg.jpg" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/0133b4cf5e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary p-3 container-fluid">
+            <a class="navbar-brand" href="#">
+<!--                <img src="../assets/images/logo.png.jpg" alt="Logo">-->ALLAN.
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto fs-3">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#header">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="header-text">
+            <p>Software developer</p>
+            <h1>Hi, I'm <span>Allan</span> <br>Kiptoo from Kenya</h1>
+        </div>
+    </div> <!-- Closing this div correctly -->
+</div> <!-- Closing this div correctly -->
+
+
+<!--about me-->
+
+<div id="about">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-1">
+                <img src="../assets/images/user.jpg.jpg" alt="">
+            </div>
+            <div class="col-sm-2">
+                <h1 class="sub-title">About me</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda corporis, distinctio eaque eligendi fuga fugiat laboriosam laborum magni molestiae nulla repudiandae tempore, tenetur, voluptas. Aspernatur iusto perferendis quod sapiente voluptatibus.</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Software development</span><br>Creating and developing web, mobile, and software applications that perform tasks on devices like computers and mobile devices</li>
+                        <li><span>Web development</span><br>Web app development</li>
+                        <li><span>App development</span><br>Building android apps</li>
+                    </ul>
+                </div>
+                 <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Software development</span><br>Creating and developing web, mobile, and software applications that perform tasks on devices like computers and mobile devices</li>
+                        <li><span>Web development</span><br>Web app development</li>
+                        <li><span>App development</span><br>Building android apps</li>
+                    </ul>
+                </div>
+                 <div class="tab-contents future" id="education">
+                    <ul>
+                        <li><span>Future</span><br>"More projects and accomplishments will be added soon. Stay tuned!"</li>
+                        <li><span>2030</span><br> M.Eng. from Georgia Tech USA</li>
+                        <li><span>2028</span><br> BCompSc from Kabarak University Kenya</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--services-->
+
+<div id="services">
+    <div class="container-fluid">
+        <h1 class="sub-title">My services</h1>
+        <div class="services-list">
+          <div class="services-item">
+              <i class="fa-brands fa-uncharted"></i>
+             <h2>Software development</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium commodi corporis deleniti dicta est fugiat, illum inventore, itaque nam neque nostrum officiis quae quia quidem rem sequi sint soluta veniam.</p>
+              <a href="#">Learn more</a>
+          </div>
+            <div class="services-item">
+                <i class="fa-solid fa-code"></i>
+             <h2>Web development</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium commodi corporis deleniti dicta est fugiat, illum inventore, itaque nam neque nostrum officiis quae quia quidem rem sequi sint soluta veniam.</p>
+                <a href="#">Learn more</a>
+          </div>
+            <div class="services-item">
+                <i class="fa-brands fa-adn"></i>
+                <h2>App development</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium commodi corporis deleniti dicta est fugiat, illum inventore, itaque nam neque nostrum officiis quae quia quidem rem sequi sint soluta veniam.</p>
+                <a href="#">Learn more</a>
+          </div>
+        </div>
+    </div>
+</div>
+
+<!-------portfolio------>
+<div id="portfolio">
+    <div class="container-fluid">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="../assets/images/work-1.jpeg" alt="">
+                 <div class="layer">
+                     <h3>Weather app</h3>
+                     <p>A digital tool that provides users with real-time weather information for specific locations. </p>
+                     <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                 </div>
+            </div>
+             <div class="work">
+                <img src="../assets/images/work-2.jpeg" alt="">
+                 <div class="layer">
+                     <h3>Music App</h3>
+                     <p>Digital platform that allows users to listen to, discover, and manage music. It typically offers features like streaming songs, creating playlists, and exploring curated music recommendations.  </p>
+                     <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                 </div>
+            </div>
+            <div class="work">
+                <img src="../assets/images/work-3.jpeg" alt="">
+                <div class="layer">
+                     <h3>Photo App</h3>
+                     <p>A digital tool that allows users to capture, edit, organize, and share photos </p>
+                     <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                 </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+<!-------------contact-------------->
+
+<div id="contact">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-1">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-regular fa-paper-plane"></i>ruttoallankiptoo@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>0768028064</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="../assets/images/Allan's%20CV.pdf" download class="btn2"> Download CV</a>
+
+            </div>
+            <div class="col-sm-2">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required><br><br>
+                    <input type="text" name="Email" placeholder="Your Email" required><br><br>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea><br><br>
+                    <button type="submit" class="btn2">Submit</button>
+                </form>
+                <span id="msg">Hello  </span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright<i class="fa-regular fa-copyright"></i>Allan. </p>
+    </div>
+</div>
+
+<script src="../assets/js/bootstrap.bundle.min.js"></script>
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for( var tablink of tablinks){
+            tablink.classList.remove("active-link")
+        }
+         for( var tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab")
+        }
+         event.currentTarget.classList.add("active-link")
+         document.getElementById(tabname).classList.add("active-tab")
+    }
+</script>
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbxXWu62vvF5oqoko7Lf8EOIVx34YfFr3mzAmsBLXvkFbGDl9DiMbOB7PqIK0V2xLKKBGQ/exec'
+  const form = document.forms['submit-to-google-sheet']
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => console.log('Success!', response))
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+</body>
+</html>
